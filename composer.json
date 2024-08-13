@@ -3,9 +3,14 @@
     "description": "Cherryio broadcaster for Laravel",
     "type": "library",
     "version": "1.0.4",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cherryio\\": "src/"
+        }
+    },
     "require": {
         "bright-webb/cherryio-php-sdk": "^1.0"
-
     },
     
     "extra": {
