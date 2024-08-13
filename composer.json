@@ -1,0 +1,26 @@
+{
+    "name": "cherryio/laravel",
+    "description": "A Laravel library for Cherryio",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cherryio\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "bright-webb/cherryio-php-sdk": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cherryio\\CherryioServiceProvider"
+            ],
+            "aliases": {
+                "Cherryio": "Cherryio\\Facades\\Cherryio"
+            }
+        }
+    }
+}
