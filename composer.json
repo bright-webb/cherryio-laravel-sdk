@@ -3,6 +3,7 @@
     "description": "A Laravel library for Cherryio",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "Cherryio\\": "src/"
