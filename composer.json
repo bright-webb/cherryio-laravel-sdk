@@ -2,7 +2,7 @@
   "name": "cherryio/laravel",
     "description": "Cherryio broadcaster for Laravel",
     "type": "library",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "require": {
         "bright-webb/cherryio-php-sdk": "^1.0"
 
