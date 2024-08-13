@@ -2,7 +2,7 @@
   "name": "cherryio/laravel",
     "description": "Cherryio broadcaster for Laravel",
     "type": "library",
-    "version": "1.0.4",
+    "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
